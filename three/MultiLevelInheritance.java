@@ -90,3 +90,28 @@ class MultiLevelInheritance{
         }
     }
 }
+
+
+Algorithm
+
+Step 1: Start
+Step 2: Create a class Person with instance variables 'name','address','gender', and 'age'
+Step 3: Create a default constructor in the Person class to initialize the instance variables
+Step 4: Create a class Employee that extends Person
+Step 5: Add instance variables 'salary', 'empid', 'qualifications', and 'companyName' to
+the Employee class
+Step 6: Create a default constructor in the Employee class to initialize the instance
+variables
+Step 7: Create a class Teachers that extends Employee
+Step 8: Add instance variables 'teacherId', 'subjects', and 'department' to the Teachers
+class
+Step 9: Create a default constructor in the Teachers class to initialize the instance
+variables
+Step 10: Create a method 'display' in the Teachers class to display the teacher's details
+34
+Step 11: Create the main method in the MultiLevelInheritance class
+Step 12: Read the number of teachers 'size' from the user
+Step 13: Create an array of Teachers objects 'obj' with size 'size'
+Step 14: Read and store the details of each teacher in the array using a loop
+Step 15: Display the details of each teacher using a loop
+Step 16: Stop
