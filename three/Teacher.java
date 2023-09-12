@@ -53,3 +53,24 @@ class Teacher extends Employee{
         }
     }
 }
+
+Algorithm
+
+Step 1: Start
+Step 2: Create a class Employee with instance variables 'empid', 'salary', 'name', and
+'address'
+Step 3: Create a default constructor in the Employee class to initialize the instance
+variables
+Step 4: Create a class Teacher that extends Employee
+Step 5: Add an instance variable 'department' and 'Subjects' as an array of strings to the
+Teacher class
+Step 6: Create a default constructor in the Teacher class to initialize the instance
+variables
+Step 7: Create a method 'display' in the Teacher class to display the teacher's details
+Step 8: Create the main method in the Teacher class
+32
+Step 9: Read the number of teachers 'size' from the user
+Step 10: Create an array of Teacher objects with size 'size'
+Step 11: Read and store the details of each teacher in the array using a loop
+Step 12: Display the details of each teacher using a loop
+Step 13: Stop
