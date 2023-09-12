@@ -68,3 +68,45 @@ class HierarchicalInheritance{
 		
 	}
 }
+
+Step 1: Define a Java class named Publisher:
+
+a. Declare an instance variable pname to store the publisher's name.
+
+b. Create a constructor for the Publisher class that takes a String parameter n and initializes pname.
+
+Step 2: Define a Java class named Book that extends Publisher:
+
+a. Declare instance variables bookName, author, and bookPrice to store book details.
+
+b. Create a constructor for the Book class that takes parameters for the publisher's name (n), book name (bn), author (a), and book price (bp).
+
+Step 3: Define a Java class named Literature that extends Book:
+
+a. Create a constructor for the Literature class that takes the same parameters as the Book constructor and calls the superclass constructor using super.
+
+b. Implement a display() method to display book details, including book name, author, publisher, and book price.
+
+Step 4: Define a Java class named Fiction that extends Book:
+
+a. Create a constructor for the Fiction class that takes the same parameters as the Book constructor and calls the superclass constructor using super.
+
+b. Implement a display() method to display book details, including book name, author, publisher, and book price.
+
+Step 5: In the HierarchicalInheritance class (the main class):
+
+a. Create Scanner objects sc and s to read input from the user.
+
+b. Prompt the user to enter the details of a literature book (publisher name, author name, book name, and price).
+
+c. Create an object obj of the Literature class, passing the user-provided values to the constructor.
+
+d. Call the display() method on obj to display the details of the literature book.
+
+e. Prompt the user to enter the details of a fiction book (publisher name, author name, book name, and price).
+
+f. Create an object obj1 of the Fiction class, passing the user-provided values to the constructor.
+
+g. Call the display() method on obj1 to display the details of the fiction book.
+
+Step 6: End
