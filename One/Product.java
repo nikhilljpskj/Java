@@ -61,3 +61,29 @@ class Product {
     }
 }
 
+
+Algorithm
+
+Step 1: Declare a Java class named Product.
+
+Step 2: Inside the Product class, declare instance variables Pcde, Price, and Pnm to represent the product code, price, and name, respectively.
+
+Step 3: Create a parameterized constructor for the Product class that takes three parameters: Pcode (product code), Pname (product name), and price.
+
+Step 4: Inside the constructor, initialize the instance variables Pcde, Pnm, and Price with the values passed as parameters.
+
+Step 5: Define a static method Compare within the Product class that takes three Product objects (pd1, pd2, and pd3) as parameters.
+
+Step 6: Inside the Compare method, compare the prices of the three Product objects (pd1, pd2, and pd3) and print a message indicating which product has the highest price.
+
+Step 7: In the main method:
+
+a. Create a Scanner object named val to read user input.
+
+b. Prompt the user to enter details for the  product (product code, product name, and price) and store them in separate variables (pcde, pnme, and prc).
+
+c. Create three Product objects (pd1, pd2, and pd3) using the provided input values.
+
+d. Call the Compare method, passing pd1, pd2, and pd3 as arguments to compare their prices.
+
+Step 8: End
