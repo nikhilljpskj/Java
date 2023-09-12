@@ -46,3 +46,31 @@ class Interface{
         obj2.perimeter(radius,pi);
     }
 }
+
+Algorithm
+
+Step 1: Define an interface named operations with two abstract methods: area(int a, double b) and perimeter(int a, double b).
+
+Step 2: Define a Java class named Rectangle that implements the operations interface:
+
+a. Implement the area(int a, double b) method to calculate and display the area of a rectangle (Area = length * breadth).
+
+b. Implement the perimeter(int a, double b) method to calculate and display the perimeter of a rectangle (Perimeter = 2 * (length + breadth)).
+
+Step 3: Define a Java class named Circle that also implements the operations interface:
+
+a. Implement the area(int r, double pi) method to calculate and display the area of a circle (Area = π * r * r).
+
+b. Implement the perimeter(int r, double pi) method to calculate and display the perimeter of a circle (Perimeter = 2 * π * r).
+
+Step 4: In the Interface class (the main class):
+
+a. Create a Scanner object sc to read input from the user.
+
+b. Prompt the user to enter the length and breadth of a rectangle and the radius of a circle.
+
+c. Create an instance obj1 of the Rectangle class and an instance obj2 of the Circle class.
+
+d. Call the area() and perimeter() methods on both obj1 and obj2 to calculate and display the area and perimeter of the rectangle and circle based on user input.
+
+Step 5: End
