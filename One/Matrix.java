@@ -33,3 +33,36 @@ class Matrix
 		}
 	}
 }
+
+
+Algorithm
+
+Step 1: Declare a Java class named Matrix.
+
+Step 2: Inside the Matrix class, declare the main method, which is the entry point of the program.
+
+Step 3: Declare integer arrays a[][], b[][], and c[][] to store matrices. Initialize them with a maximum size of 10x10.
+
+Step 4: Declare integer variables i and j. These will be used as loop counters.
+
+Step 5: Create a Scanner object named inp to read input from the user.
+
+Step 6: Use System.out.print to prompt the user to enter the number of rows for the matrices. Read the number entered by the user and store it in the variable row.
+
+Step 7: Use System.out.print to prompt the user to enter the number of columns for the matrices. Read the number entered by the user and store it in the variable col.
+
+Step 8: Display a message asking the user to enter the elements of the first matrix.
+
+Step 9: Use nested for loops to read the elements of the first matrix (a) from the user. The outer loop iterates over rows, and the inner loop iterates over columns.
+
+Step 10: Display a message asking the user to enter the elements of the second matrix.
+
+Step 11: Use nested for loops to read the elements of the second matrix (b) from the user, following the same row-column iteration pattern as the first matrix.
+
+Step 12: Use nested for loops to calculate the sum of the corresponding elements of matrices a and b and store the result in the c matrix.
+
+Step 13: Display a message indicating that the addition of the two matrices is about to be printed.
+
+Step 14: Use nested for loops to print the elements of the resultant matrix (c) after addition. The outer loop iterates over rows, and the inner loop iterates over columns.
+
+Step 15: End
