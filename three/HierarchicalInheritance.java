@@ -69,6 +69,10 @@ class HierarchicalInheritance{
 	}
 }
 
+
+Algorithm
+
+	
 Step 1: Define a Java class named Publisher:
 
 a. Declare an instance variable pname to store the publisher's name.
